@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Humidity vs. Latitude</title>
+
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+
+    <link rel="stylesheet"
+          href="style.css">
+</head>
+
+<body>
+    <div class="humidityViz_box-set">
+        <div class="humidityViz_box1">
+            <h1>Humidity vs. Latitude</h1>
+            <div class="humidityViz_box1Content">
+                <p>
+                    <img src="Output/Humidity.png"
+                         alt="Humidity vs. Latitude"
+                         title="Humidity vs. Latitude">
+                    <br>
+                    <br>
+                    <br>
+                    The scatter plot shown here illustrates humidity vs. latitude. From the scatter plot, we can see
+                    that there does not appear to be a correlation between latitude and humidity. One interesting
+                    observation, however, is that there appear to be a cluster of cities between latitudes -20 and 20
+                    that have 100% humidity. This makes sense given that the world's tropical rainforests lie between
+                    the Tropic of Capricorn (23.5 degrees south) and the Tropic of Cancer (23.5 degrees north).
+                </p>
+            </div>
+        </div>
+        <div class="vizPages_box2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 vizPages_box2_title">
+                        <h2>Visualizations</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <img id="vizPages_temp"
+                             src="Output/Temp.png"
+                             alt="Temperature vs. Latitude"
+                             title="Temperature vs. Latitude">
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <img id="vizPages_humidity"
+                             src="Output/Humidity.png"
+                             alt="Humidity vs. Latitude"
+                             title="Humidity vs. Latitude">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <img id="vizPages_wind"
+                             src="Output/Wind.png"
+                             alt="Temperature vs. Wind Speed"
+                             title="Temperature vs. Wind Speed">
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <img id="vizPages_clouds"
+                             src="Output/Clouds.png"
+                             alt="Humidity vs. Cloud Cover"
+                             title="Humidity vs. Cloud Cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lattitude - Landing Page</title>
+
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+
+    <link rel="stylesheet"
+          href="style.css">
+</head>
+
+<body>
+    <div class="landing_box-set">
+        <div class="landing_box1">
+            <h1>Summary: Weather vs. Latitude</h1>
+            <div class="landing_box1Content">
+                <p>
+                    <img src="Output/Temp.png"
+                         alt="Temperature vs. Latitude"
+                         title="Temperature vs. Latitude">
+                    <br>
+                    The purpose of this project was to analyze various weather phenomena vs. latitude. In particular, we
+                    wanted to analyze the following:
+                    <br>
+                    <ul>
+                        <li>Temperature</li>
+                        <li>Humidity</li>
+                        <li>Wind Speed</li>
+                        <li>Cloud Cover</li>
+                    </ul>
+                    <p>
+                        We were first provided a dataset containing a list of over 500 randomly selected cities. This
+                        datset
+                        contained multiple fields of information, including the name of the city and the four weather
+                        phenomena
+                        mentioned above. The goal was to visualize this data and examine whether any patterns could be
+                        detected
+                        as location approached the equator (i.e., as location approached latitude of 0). Note that this
+                        data was gathered on June 13, 2018.
+                    </p>
+                    <p>
+                        Contained within this site, you will find links to an overall comparisons page, in addition to
+                        links
+                        to the individual visualizations mentioned above. Finally, you will be able to view the raw data
+                        for
+                        yourself using the Data link.
+                    </p>
+                    <p>
+                        <em>(Pictured above: sample visualization of Temperature vs. Latitude)</em>
+                    </p>
+                </p>
+            </div>
+        </div>
+        <div class="landing_box2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 landing_box2_title">
+                        <h2>Visualizations</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <img id="Temp"
+                             src="Output/Temp.png"
+                             alt="Temperature vs. Latitude"
+                             title="Temperature vs. Latitude">
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <img id="Humidity"
+                             src="Output/Humidity.png"
+                             alt="Humidity vs. Latitude"
+                             title="Humidity vs. Latitude">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <img id="Wind"
+                             src="Output/Wind.png"
+                             alt="Temperature vs. Wind Speed"
+                             title="Temperature vs. Wind Speed">
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <img id="Clouds"
+                             src="Output/Clouds.png"
+                             alt="Humidity vs. Cloud Cover"
+                             title="Humidity vs. Cloud Cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wind Speed vs. Latitude</title>
+
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+
+    <link rel="stylesheet"
+          href="style.css">
+</head>
+
+<body>
+    <div class="windViz_box-set">
+        <div class="windViz_box1">
+            <h1>Wind Speed vs. Latitude</h1>
+            <div class="windViz_box1Content">
+                <p>
+                    <img src="Output/Wind.png"
+                         alt="Wind Speed vs. Latitude"
+                         title="Wind Speed vs. Latitude">
+                    <br>
+                    <br>
+                    <br>
+                    The scatter plot shown here illustrates wind speed vs. latitude. There does not appear to be a
+                    correlation between wind speed and latitude.
+                </p>
+            </div>
+        </div>
+        <div class="vizPages_box2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 vizPages_box2_title">
+                        <h2>Visualizations</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <img id="vizPages_temp"
+                             src="Output/Temp.png"
+                             alt="Temperature vs. Latitude"
+                             title="Temperature vs. Latitude">
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <img id="vizPages_humidity"
+                             src="Output/Humidity.png"
+                             alt="Humidity vs. Latitude"
+                             title="Humidity vs. Latitude">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <img id="vizPages_wind"
+                             src="Output/Wind.png"
+                             alt="Temperature vs. Wind Speed"
+                             title="Temperature vs. Wind Speed">
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <img id="vizPages_clouds"
+                             src="Output/Clouds.png"
+                             alt="Humidity vs. Cloud Cover"
+                             title="Humidity vs. Cloud Cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
