@@ -244,6 +244,96 @@ html {
     margin-top: 2vh;
 }
 
+.comparisons_box {
+    position: absolute;
+    margin-top: 2vh;
+    margin-left: 25%;
+    height: 96vh;
+    width: 50%;
+    background-color: rgb(235, 231, 231, 0.9);
+    font-family: Georgia;
+}
+
+.comparisons_box h1 {
+    margin-top: 3vh;
+    margin-left: 1%;
+    font-size: 2.25vmax;
+}
+
+.comparisons_box h5 {
+    margin-left: 1%;
+    font-size: 1vmax;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5vmax;
+    color: blue;
+}
+
+.comparisons_plot3 {
+    margin-top: 1vh;
+}
+
+.comparisons_plot4 {
+    margin-top: 1vh;
+}
+
+#comparisons_temp {
+    height: 34vh;
+    width: 100%;
+    margin-top: -2vh;
+}
+
+#comparisons_humidity {
+    height: 34vh;
+    width: 100%;
+    margin-top: -2vh;
+}
+
+#comparisons_wind {
+    height: 34vh;
+    width: 100%;
+    margin-top: -2vh;
+}
+
+#comparisons_clouds {
+    height: 34vh;
+    width: 100%;
+    margin-top: -2vh;
+}
+
+.data_box {
+    position: absolute;
+    margin-top: 2vh;
+    margin-left: 5%;
+    height: 100vh;
+    width: 90%;
+    background-color: rgb(235, 231, 231, 0.9);
+    font-family: Georgia;
+    overflow: auto;
+}
+
+.data_box .data_headingRow {
+    margin-top: 3vh;
+    margin-left: 1%;
+}
+
+.data_box h1 {
+    font-size: 3vmax;
+}
+
+.data_box em {
+    font-size: 1vmax;
+}
+
+.table {
+    margin-left: 1.5%;
+    width: 97%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
 @media (max-width: 768px) {
     .landing_box1 {
         position: absolute;
@@ -466,5 +556,76 @@ html {
         height: 20vh;
         width: 100%;
         margin-top: 1vh;
+    }
+
+    .comparisons_box {
+        position: absolute;
+        margin-top: 2vh;
+        margin-left: 17.5%;
+        height: 225vh;
+        width: 65%;
+        background-color: rgb(235, 231, 231, 0.9);
+        font-family: Georgia;
+    }
+    
+    .comparisons_box h1 {
+        margin-top: 3vh;
+        margin-left: 1%;
+        font-size: 3.3vmax;
+    }
+    
+    .comparisons_box h5 {
+        margin-left: 1%;
+        font-size: 2vmax;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 2.5vmax;
+        color: blue;
+    }
+
+    .comparisons_plot2 {
+        margin-top: 2vh;
+    }
+
+    .comparisons_plot3 {
+        margin-top: 2vh;
+    }
+    
+    .comparisons_plot4 {
+        margin-top: 2vh;
+    }
+    
+    #comparisons_temp {
+        height: 45vh;
+        width: 100%;
+        margin-top: -2vh;
+    }
+    
+    #comparisons_humidity {
+        height: 45vh;
+        width: 100%;
+        margin-top: -2vh;
+    }
+    
+    #comparisons_wind {
+        height: 45vh;
+        width: 100%;
+        margin-top: -2vh;
+    }
+    
+    #comparisons_clouds {
+        height: 45vh;
+        width: 100%;
+        margin-top: -2vh;
+    }
+
+    .data_box h1 {
+        font-size: 5vmax;
+    }
+    
+    .data_box em {
+        font-size: 2vmax;
     }
 }
