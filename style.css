@@ -15,9 +15,12 @@ html {
     top: 50%;
     left: 10%;
     margin-top: -15vh;
-    color: white;
     font-family: Georgia;
     font-style: italic;
+}
+
+#lattitude_anchor{
+    color: white;
 }
 
 .landing_box1 {
@@ -579,7 +582,7 @@ h3 {
         font-size: 2vmax;
     }
 
-    h3 {
+    .row h3 {
         text-align: center;
         font-size: 2.5vmax;
         color: blue;
